@@ -1,6 +1,11 @@
 Question 1: Explain the difference between analog and digital signals.
 
+-An analog signal is meant to be interpreted in terms of a range (they are continuous), instead of a finite set of possible values like digital signals (discrete). 
+
 Question 2: Give an example of something that uses digital signals and how it uses it.
+
+-A light switch uses a digital signal, since the switch can either be switched on or off which are both discrete values.
 
 Question 3: Give an example of something that uses analog signals and how it uses it.
 
+-A speaker uses an analog signal, taking in an electrical signal and converting it into an analog continuous sound wave.

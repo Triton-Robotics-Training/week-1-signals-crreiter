@@ -1,14 +1,12 @@
-//STARTER 
-//THIS EXERCISE IS TO BE DONE IN THE ARM MBED SIMULATOR
-//http://195.130.59.221/
-//IF YOU HAVE ISSUES WITH THE SIMULATOR, CONTACT EMBEDDED LEAD
 #include "mbed.h"
+DigitalOut led(LED1);
+AnalogIn potentiometer(p15);
 
 int main() {
-    while (1) {
-        printf("Week 1 Exercise 2");
-
-        // MAKE SURE THERE IS ALWAYS A WAIT ON THE SIM OR IT WILL CRASH
-        wait_ms(500); 
+    while (true) {
+        wait_ms(2000);
+        led=1;
+        wait_ms(potentiometer*2000);
+        led=0;
     }
 }
